@@ -60,3 +60,32 @@ main{
 .title{
   margin: 15px 0 5px;
 }
+
+@media screen and (max-width:768px){
+  main{
+    width:100%;
+  }
+  .step-box{
+    float:none;
+    width:90%;
+    margin: 0 auto 20px;
+  } 
+  .step-box:last-child{
+    margin: 0 auto;
+    margin-bottom:0;
+  }
+
+  .step-img1{
+    height:200px;
+  }
+
+  .step-img2{
+    height:200px;
+  }
+
+  .step-img3{
+    height:200px;
+  }
+
+
+}
